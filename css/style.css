@@ -1,0 +1,48 @@
+/*
+Common class for setting width
+================================================ */
+/*
+COMMON
+================================================ */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Meiryo";
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loading-left, .loading-right {
+  background-color: yellowgreen;
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+}
+
+.loading-left {
+  left: 0;
+  transform-origin: left top;
+}
+
+.loading-right {
+  right: 0;
+  transform-origin: right top;
+}
